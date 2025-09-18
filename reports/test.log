@@ -1,0 +1,18 @@
+2025-09-17T06:46:50.179Z [[32minfo[39m]: [32m🚀 Test Started: Switch pages demo from facebook footer links[39m
+2025-09-17T06:47:06.924Z [[31merror[39m]: [31m❌ Failed: Switch pages demo from facebook footer links[39m
+2025-09-17T06:47:07.347Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo tests - Successful test[39m
+2025-09-17T06:47:09.948Z [[32minfo[39m]: [32m✅ Passed: Saucedemo tests - Successful test[39m
+2025-09-17T06:47:09.951Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo tests - Failure test[39m
+2025-09-17T06:47:16.074Z [[31merror[39m]: [31m❌ Failed: Saucedemo tests - Failure test[39m
+2025-09-17T06:47:16.397Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo tests - Successful login will display Products Page[39m
+2025-09-17T06:47:17.761Z [[32minfo[39m]: [32m✅ Passed: Saucedemo tests - Successful login will display Products Page[39m
+2025-09-17T06:47:17.764Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo test - Add product to cart[39m
+2025-09-17T06:47:18.959Z [[32minfo[39m]: [32m✅ Passed: Saucedemo test - Add product to cart[39m
+2025-09-17T06:47:18.962Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo test - When login is unsuccessful will not display Products Page[39m
+2025-09-17T06:47:20.033Z [[32minfo[39m]: [32m✅ Passed: Saucedemo test - When login is unsuccessful will not display Products Page[39m
+2025-09-17T06:47:20.039Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo test - successful login[39m
+2025-09-17T06:47:21.277Z [[32minfo[39m]: [32m✅ Passed: Saucedemo test - successful login[39m
+2025-09-17T06:47:21.280Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo test - Add product to cart[39m
+2025-09-17T06:47:22.578Z [[32minfo[39m]: [32m✅ Passed: Saucedemo test - Add product to cart[39m
+2025-09-17T06:47:22.580Z [[32minfo[39m]: [32m🚀 Test Started: Saucedemo test - When login is unsuccessful will not display Products Page[39m
+2025-09-17T06:47:23.710Z [[32minfo[39m]: [32m✅ Passed: Saucedemo test - When login is unsuccessful will not display Products Page[39m

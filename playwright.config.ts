@@ -8,6 +8,8 @@ import { ACTION_TIMEOUT, EXPECT_TIMEOUT, NAVIGATION_TIMEOUT, TEST_TIMEOUT } from
 import { WaitForLoadStateOptions } from './src/raushan-playwright/setup/optional-parameter-types';
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
+import CustomLogger from './src/raushan-playwright/setup/custom-logger';
+
 dotenv.config({ path: '.env' });
 
 const BASE_URL = process.env.URL || 'https://www.facebook.com/';
@@ -59,11 +61,11 @@ export default defineConfig({
 // ],
 
   reporter: [
-  ['./src/raushan-playwright/setup/custom-logger.ts'],
-  ['html', { open: 'never' }],
-  ['dot'],
-  ['allure-playwright', { outputFolder: 'reports/allure-report' }] // <-- add this line
-],
+    ['list'],
+    ['./src/raushan-playwright/setup/custom-logger.ts', { logLevel: 'debug', filePath: 'reports/test.log' }],
+    ['allure-playwright'],
+    ['html', { open: 'never' }],
+  ],
 
 
 
